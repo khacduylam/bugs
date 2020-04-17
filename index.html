@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<style>
 	  body {
-	    background-image: url('stainedglass.jpg');
+	    background-image: url('stainedglass.png');
 	    background-size: cover;
 	  }
 	</style>
@@ -11,11 +13,8 @@
 	<body>
 		<script type='text/javascript' src='bug-min.js'></script>
 		<script type='text/javascript'>
-			// default fruit fly bug:
-			new BugController({ minBugs: 20, maxBugs: 300 });
-
-			// default spiders:
-			new SpiderController({ minBugs: 20, maxBugs: 300 });
+			new BugController({ minBugs: 10, maxBugs: 100 });
+			new SpiderController({ minBugs: 10, maxBugs: 50 });
 		</script>
 	</body>
 </html>
